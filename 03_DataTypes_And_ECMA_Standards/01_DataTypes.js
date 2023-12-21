@@ -13,9 +13,16 @@ let weight = 7.5;
 let color = "Yellow";
 let lastName = "Johnson";
 
+let str = "Hello There";
+let str2 = "Single quotes works fine";
+let phrase = `can embed ${str}`;
+
 // Booleans
 let x = true;
 let y = false;
+
+let isCoding = true; // yes
+let isOld = false;      // no
 
 // Object:
 const person = {firstName:"John", lastName:"Doe"};
