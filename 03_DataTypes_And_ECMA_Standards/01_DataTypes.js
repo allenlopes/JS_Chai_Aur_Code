@@ -24,6 +24,11 @@ let y = false;
 let isCoding = true; // yes
 let isOld = false;      // no
 
+
+// Null
+let age = null;
+
+
 // Object:
 const person = {firstName:"John", lastName:"Doe"};
 
