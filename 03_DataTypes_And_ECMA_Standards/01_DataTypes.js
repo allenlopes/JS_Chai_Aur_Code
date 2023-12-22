@@ -37,3 +37,10 @@ const cars = ["Saab", "Volvo", "BMW"];
 
 // Date object:
 const date = new Date("2022-03-25");
+
+
+// Comversion
+Number("3.14");
+Number(Math.PI);
+Number(" ");
+Number("");
