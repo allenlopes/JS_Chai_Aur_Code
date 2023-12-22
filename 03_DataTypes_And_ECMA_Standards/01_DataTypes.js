@@ -44,3 +44,6 @@ Number("3.14");
 Number(Math.PI);
 Number(" ");
 Number("");
+
+let y = "5";      // y is a string
+let x = + y;      // x is a number
