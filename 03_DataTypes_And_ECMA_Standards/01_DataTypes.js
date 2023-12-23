@@ -45,5 +45,5 @@ Number(Math.PI);
 Number(" ");
 Number("");
 
-let y = "5";      // y is a string
-let x = + y;      // x is a number
+let y1 = "5";      // y is a string
+let x1 = + y1;      // x is a number
