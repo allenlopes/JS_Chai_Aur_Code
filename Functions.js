@@ -16,3 +16,9 @@ let value = toCelsius();
 let x = toCelsius(77);
 let text = "The temperature is " + x + " Celsius";
 let text = "The temperature is " + toCelsius(77) + " Celsius";
+
+
+function calcAddition(number1, number2) {
+  return number1 + number2;
+}
+console.log(calcAddition(6, 9));
