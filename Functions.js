@@ -34,3 +34,11 @@ console.log("Normal way ", a2); // [8, 6, 7, 9]
 const a3 = a.map((s) => s.length);
 
 console.log("Using Arrow Function ", a3); // [8, 6, 7, 9]
+
+
+function multiply(a, b) {
+	b = typeof b !== "undefined" ? b : 1;
+	return a * b;
+}
+
+console.log(multiply(69)); // 69
