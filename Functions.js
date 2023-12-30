@@ -45,3 +45,12 @@ const numberForFibonacci = 7;
 
 console.log(`Factorial of ${numberForFactorial}: ${factorial(numberForFactorial)}`);
 console.log(`Fibonacci number at position ${numberForFibonacci}: ${fibonacci(numberForFibonacci)}`);
+
+
+// binding a function to an object.
+
+let obj = { a: 12, b: 13 };
+function sum() {
+  return this.a + this.b;
+}
+console.log(sum.call(obj));
