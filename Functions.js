@@ -57,15 +57,7 @@ console.log(sum.call(obj));
 
 
 // Objects ->
-<!DOCTYPE html>
-<html>
-<body>
 
-<h2>JavaScript Objects</h2>
-
-<p id="demo"></p>
-
-<script>
 // Create an object:
 const person = {
   firstName: "John",
@@ -77,7 +69,10 @@ const person = {
 // Display some data from the object:
 document.getElementById("demo").innerHTML =
 person.firstName + " is " + person.age + " years old.";
-</script>
 
-</body>
-</html>
+// Create an object:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// Display some data from the object:
+document.getElementById("demo").innerHTML = "The car type is " + car.type;
+
