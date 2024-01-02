@@ -78,3 +78,11 @@ document.getElementById("demo").innerHTML = "The car type is " + car.type;
 
 
 <button onclick="this.innerHTML=Date()">The time is?</button>;
+
+
+// STRINGS
+
+let carName1 = "Volvo XC60"; // Double quotes
+let carName2 = "Volvo XC60"; // Single quotes
+
+document.getElementById("demo").innerHTML = carName1 + " " + carName2;
