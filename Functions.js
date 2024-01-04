@@ -1,92 +1,17 @@
-let employee = {
-  details: function (designation, experience) {
-    return this.name + " " + this.id + designation + experience;
-  },
-};
-
-// Objects declaration
-let emp1 = {
-  name: "A",
-  id: "123",
-};
-let emp2 = {
-  name: "B",
-  id: "456",
-};
-let x = employee.details.call(emp2, "Manager", "4 years");
-console.log(x);
-
-//// SOME COMPLEX
-
-
-// Function to calculate the factorial of a number using recursion
-function factorial(n) {
-  if (n === 0 || n === 1) {
-    return 1;
-  } else {
-    return n * factorial(n - 1);
-  }
+// Function declaration
+function greet(name) {
+    return "Hello, " + name + "!";
 }
 
-// Function to find the nth Fibonacci number using iteration
-function fibonacci(n) {
-  let fibArray = [0, 1];
-
-  for (let i = 2; i <= n; i++) {
-    fibArray[i] = fibArray[i - 1] + fibArray[i - 2];
-  }
-
-  return fibArray[n];
-}
-
-// Example usage
-const numberForFactorial = 5;
-const numberForFibonacci = 7;
-
-console.log(`Factorial of ${numberForFactorial}: ${factorial(numberForFactorial)}`);
-console.log(`Fibonacci number at position ${numberForFibonacci}: ${fibonacci(numberForFibonacci)}`);
-
-
-// binding a function to an object.
-
-let obj = { a: 12, b: 13 };
-function sum() {
-  return this.a + this.b;
-}
-console.log(sum.call(obj));
-
-
-// Objects ->
-
-// Create an object:
-const person = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 50,
-  eyeColor: "blue"
+// Function expression
+var add = function(x, y) {
+    return x + y;
 };
 
-// Display some data from the object:
-document.getElementById("demo").innerHTML =
-person.firstName + " is " + person.age + " years old.";
+// Arrow function
+const multiply = (a, b) => a * b;
 
-// Create an object:
-const car = {type:"Fiat", model:"500", color:"white"};
-
-// Display some data from the object:
-document.getElementById("demo").innerHTML = "The car type is " + car.type;
-
-
-<button onclick="this.innerHTML=Date()">The time is?</button>;
-
-
-// STRINGS
-
-let carName1 = "Volvo XC60"; // Double quotes
-let carName2 = "Volvo XC60"; // Single quotes
-
-document.getElementById("demo").innerHTML = carName1 + " " + carName2;
-
-
-let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-document.getElementById("demo").innerHTML = text.length;
+// Calling the functions
+console.log(greet("John")); // Output: Hello, John!
+console.log(add(5, 3));      // Output: 8
+console.log(multiply(4, 6)); // Output: 24
