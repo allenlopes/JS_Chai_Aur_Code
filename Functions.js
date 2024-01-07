@@ -77,3 +77,18 @@ console.log(x(4));
 // can be used as variable value for other variables
 let y = x(3);
 console.log(y);
+
+
+
+//////////////
+
+         function concatenate(first, last) {
+           var full;
+           full = first + last;
+           return full;
+         }
+         function secondFunction() {
+           var result;
+           result = concatenate("Zara", "Ali");
+           document.write(result);
+         }
