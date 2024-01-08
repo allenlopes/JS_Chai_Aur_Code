@@ -92,3 +92,12 @@ console.log(y);
            result = concatenate("Zara", "Ali");
            document.write(result);
          }
+
+
+
+/////
+
+// Example to display the power of provided value.
+
+var pow = new Function("num1", "num2", "return Math.pow(num1,num2)");
+document.writeln(pow(2, 3));
