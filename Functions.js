@@ -115,7 +115,17 @@ abc();
 
 // Anonymous function
 (function () {
-  let x = 10;
-  let y = 20;
+  let x11 = 10;
+  let y11 = 20;
   document.write(x * y);
 }) ();  // () this indicated function is called.
+
+
+/////
+
+
+        var x11 = function (){
+            document.write("Hello");
+        }
+        // document.write(x) -> we can't call the var x like this because it will directly print the whole function rather than printing just the value inside the function.
+        x(); // Printing the anonymous function by calling the variable name.
