@@ -129,3 +129,17 @@ abc();
         }
         // document.write(x) -> we can't call the var x like this because it will directly print the whole function rather than printing just the value inside the function.
         x(); // Printing the anonymous function by calling the variable name.
+
+
+
+//// Popups
+
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
