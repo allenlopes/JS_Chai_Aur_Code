@@ -131,3 +131,8 @@ abc();
         x(); // Printing the anonymous function by calling the variable name.
 
 
+/////////////
+
+    setTimeout(function () {
+      console.log("Welcome to GeeksforGeeks!");
+    }, 2000);
