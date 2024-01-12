@@ -136,3 +136,13 @@ abc();
     setTimeout(function () {
       console.log("Welcome to GeeksforGeeks!");
     }, 2000);
+
+
+    var name = "Allen";
+    document.write(typeof name);
+
+
+
+
+  var name = "Allen is a nerd Programmer, Allen has less knowledge but passion for learning makes him worthy"; 
+  document.write(name.substring(12)); // display data from position 12 and all further on..
