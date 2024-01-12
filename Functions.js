@@ -144,5 +144,10 @@ abc();
 
 
 
-  var name = "Allen is a nerd Programmer, Allen has less knowledge but passion for learning makes him worthy"; 
+  var name = "Allen is a nerd Programmer, Allen has less knowledge but passion for learning makes him worthy";
   document.write(name.substring(12)); // display data from position 12 and all further on..
+
+
+    var namew = "Allen is a nerd Programmer, Allen has less knowledge but passion for learning makes him worthy";
+    var rw = namew.replace("Allen", "Sal"); // replace basically replaces the first occuring word in our string which we want to replace, like suppose we want to replace "Allen" with "Sal" and there are total 10 words with "Allen" so it will only replace the first word "Allen"
+    document.write(rw);
