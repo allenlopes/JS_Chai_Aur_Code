@@ -32,18 +32,44 @@ let age = null;
 // Object:
 const person = {firstName:"John", lastName:"Doe"};
 
-// Array object:
-const cars = ["Saab", "Volvo", "BMW"];
-
-// Date object:
-const date = new Date("2022-03-25");
 
 
-// Comversion
-Number("3.14");
-Number(Math.PI);
-Number(" ");
-Number("");
 
-let y1 = "5";      // y is a string
-let x1 = + y1;      // x is a number
+
+// Primitives
+// 7 Types -> String, Number, Boolean, null, Undefined, Symbol, BigInt
+
+const score = 100
+const scoreVal = 100.3;
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+
+const bigNumber = 434323434
+
+
+
+// Reference (Non Primitive)
+// Array, Objects, Functions
+
+// Array
+const heroes = ["shaktiman", "naagraj", "doga"]
+
+// Objects
+let myObj = {
+    name: "Allen",m
+    age: "23",
+}
+
+// Functions
+const myFunction = function() {
+    console.log("Hello World");
+}
+
+console.log(typeof bigNumber);
+
+
+let value1 = Symbol("value");
+let value2 = Symbol("value");
+alert(value1 == value2); // false
