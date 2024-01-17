@@ -156,3 +156,19 @@ abc();
         var name1 = "Allen is a nerd Programmer,";
         var name2 = "Allen has less knowledge but passion for learning makes him worthy"
         document.write(name1.concat(" ", name2));
+
+
+////////////////
+
+function fetchData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const data = { foo: 'bar' };
+            resolve(data);
+        }, 1000); // Simulate a delay
+    });
+}
+
+fetchData()
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
