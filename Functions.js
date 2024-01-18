@@ -144,20 +144,6 @@ abc();
     document.write(rw);
 
 
-/////////
-
-    /* One way is to add + between two variables
-        var name1 = "Allen is a nerd Programmer,";
-        var name2 = "Allen has less knowledge but passion for learning makes him worthy"
-        document.write(name1+" "+name2);
-    */
-
-    // second is to add concat to join 2 variables
-        var name1 = "Allen is a nerd Programmer,";
-        var name2 = "Allen has less knowledge but passion for learning makes him worthy"
-        document.write(name1.concat(" ", name2));
-
-
 ////////////////
 
 function fetchData() {
