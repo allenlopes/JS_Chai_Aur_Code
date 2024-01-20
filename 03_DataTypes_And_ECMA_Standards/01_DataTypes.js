@@ -57,3 +57,14 @@ console.log(typeof bigNumber);
 let value1 = Symbol("value");
 let value2 = Symbol("value");
 alert(value1 == value2); // false
+
+
+////
+
+const obj = {};
+Object.defineProperty(obj, "name", {
+    value: "John",
+    writable: false, // Prevents modification
+    enumerable: true, // Visible in for...in loops
+    configurable: true // Can be deleted
+});
