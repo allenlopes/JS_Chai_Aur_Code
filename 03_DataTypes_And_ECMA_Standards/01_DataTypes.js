@@ -88,3 +88,17 @@ buffer[0] = 255; // Set first byte to maximum value
 let x = 10; // x is a Number
 x = "hello"; // x is now a String
 
+
+
+//// Strings ////
+
+// Creating Strings ->
+
+// Using single or double quotes
+let greeting = "Hello, world!";
+let message = 'This is a string too.';
+
+// Using template literals
+let name1 = "John";
+let age1 = 30;
+let introduction = `Hello, my name is ${name1} and I'm ${age} years old.`;
