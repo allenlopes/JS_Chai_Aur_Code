@@ -68,3 +68,23 @@ Object.defineProperty(obj, "name", {
     enumerable: true, // Visible in for...in loops
     configurable: true // Can be deleted
 });
+
+
+/// Symbol
+
+const uniqueKey = Symbol("myKey");
+const obj = {};
+obj[uniqueKey] = "secret value"; // Private property
+
+
+/// Typed Array
+
+const buffer = new Uint8Array(4); // Array of 4 unsigned 8-bit integers
+buffer[0] = 255; // Set first byte to maximum value
+
+
+/// Weak type
+
+let x = 10; // x is a Number
+x = "hello"; // x is now a String
+
