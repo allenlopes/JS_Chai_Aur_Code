@@ -102,3 +102,19 @@ let message = 'This is a string too.';
 let name1 = "John";
 let age1 = 30;
 let introduction = `Hello, my name is ${name1} and I'm ${age} years old.`;
+
+
+
+//
+
+// Create an object:
+const person1 = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+// Display some data from the object:
+document.getElementById("demo").innerHTML =
+person1.firstName + " is " + person1.age + " years old.";
