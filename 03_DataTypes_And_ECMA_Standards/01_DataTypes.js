@@ -104,3 +104,25 @@ const person1 = {
 // Display some data from the object:
 document.getElementById("demo").innerHTML =
 person1.firstName + " is " + person1.age + " years old.";
+
+
+
+
+//// Accessing Characters:
+
+// Using indexing:
+let firstChar = greeting[0]; // "H"
+let lastChar = message[message.length - 1]; // "."
+
+/////////////////
+
+//// String Methods:
+
+// Concatenation:
+let fullMessage = greeting + " " + message; // "Hello, world! This is a string too."
+
+// Length
+let messageLength = message.length; // 22
+
+// Searching
+let found = message.indexOf("string"); // 15 (index of first occurrence)
