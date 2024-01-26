@@ -1,21 +1,3 @@
-"use strict"; // treat all JS code as newer version
-
-
-// Booleans
-let x = true;
-let y = false;
-
-let isCoding = true; // yes
-let isOld = false;      // no
-
-
-// Null
-let age = null;
-
-
-// Object:
-const person = {firstName:"John", lastName:"Doe"};
-
 
 
 
@@ -126,3 +108,7 @@ let messageLength = message.length; // 22
 
 // Searching
 let found = message.indexOf("string"); // 15 (index of first occurrence)
+
+
+///////////////////
+
