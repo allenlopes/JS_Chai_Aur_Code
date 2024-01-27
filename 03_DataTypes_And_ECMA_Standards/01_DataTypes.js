@@ -109,6 +109,19 @@ let messageLength = message.length; // 22
 // Searching
 let found = message.indexOf("string"); // 15 (index of first occurrence)
 
+// Case conversion
+let uppercase = greeting.toUpperCase(); // "HELLO, WORLD!"
+let lowercase = message.toLowerCase(); // "this is a string too."
+
+// Trimming whitespace
+let trimmed = "   Hello!   ".trim(); // "Hello!"
+
+// Splitting into substrings
+let words = fullMessage.split(" "); // ["Hello,", "world!", "This", "is", "a", "string", "too."]
+
+// Replacing substrings:
+let modified = introduction.replace("John", "Jane"); // "Hello, my name is Jane and I'm 30 years old."
+
 
 ///////////////////
 
