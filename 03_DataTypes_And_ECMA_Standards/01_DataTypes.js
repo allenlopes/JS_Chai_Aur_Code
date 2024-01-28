@@ -125,3 +125,15 @@ let modified = introduction.replace("John", "Jane"); // "Hello, my name is Jane 
 
 ///////////////////
 
+//// Template Literals Features:
+
+// Multiline strings:
+let poem = `Roses are red,
+Violets are blue,
+JavaScript is cool,
+And so are you!`;
+
+// Embedded expressions:
+let calculatedValue = 5 * 2;
+let result = `The value is ${calculatedValue}.`; // "The value is 10."
+
