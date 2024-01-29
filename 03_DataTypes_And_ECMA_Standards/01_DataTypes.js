@@ -32,6 +32,17 @@ let person = {
 };
 
 
+// Arrays
+let numbers = [1, 2, 3, 4, 5];
+let colors = ["red", "green", "blue"];
+
+
+// Symbols
+let uniqueKey1 = Symbol("myKey");
+
+
+// BigInt
+let largeNumber = 9007199254740991n ** 2n; // BigInt with 18 digits
 
 
 // Primitives
