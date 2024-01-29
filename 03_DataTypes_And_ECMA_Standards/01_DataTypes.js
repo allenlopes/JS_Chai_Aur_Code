@@ -1,3 +1,35 @@
+// Numbers
+let age = 30;
+let price = 19.99;
+let pi = 3.14159;
+
+
+// Strings
+let name = "John Doe";
+let greeting = "Hello, world!";
+let shayari = `Roses are red,
+Violets are blue...`;
+
+
+// Booleans
+let isLoggedIn = true;
+let isAdmin = false;
+
+
+// Null
+let variableWithoutValue = null;
+
+
+// Undefined
+let unassignedVariable; // Value is undefined
+
+
+// Objects
+let person = {
+    name: "Alice",
+    age: 25,
+    hobbies: ["coding", "reading"]
+};
 
 
 
