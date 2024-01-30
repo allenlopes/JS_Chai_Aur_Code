@@ -1,3 +1,6 @@
+// Primitives
+// 7 Types -> String, Number, Boolean, null, Undefined, Symbol, BigInt
+
 // Numbers
 let age = 30;
 let price = 19.99;
@@ -44,18 +47,6 @@ let uniqueKey1 = Symbol("myKey");
 // BigInt
 let largeNumber = 9007199254740991n ** 2n; // BigInt with 18 digits
 
-
-// Primitives
-// 7 Types -> String, Number, Boolean, null, Undefined, Symbol, BigInt
-
-const score = 100
-const scoreVal = 100.3;
-
-const id = Symbol('123')
-const anotherId = Symbol('123')
-
-
-const bigNumber = 434323434
 
 
 
