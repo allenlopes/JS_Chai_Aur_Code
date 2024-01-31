@@ -48,7 +48,17 @@ let uniqueKey1 = Symbol("myKey");
 let largeNumber = 9007199254740991n ** 2n; // BigInt with 18 digits
 
 
+///
 
+// Sets
+const mySet = new Set([1, 2, 3, 1]); // Duplicate is ignored
+console.log(mySet.has(2)); // Output: true
+
+// Maps
+const myMap = new Map();
+myMap.set("name", "John");
+myMap.set(30, "age"); // Number as key
+console.log(myMap.get("name")); // Output: "John"
 
 // Reference (Non Primitive)
 // Array, Objects, Functions
