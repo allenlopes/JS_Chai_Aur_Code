@@ -60,6 +60,14 @@ myMap.set("name", "John");
 myMap.set(30, "age"); // Number as key
 console.log(myMap.get("name")); // Output: "John"
 
+//
+const imageData = new Uint8ClampedArray(width * height * 4); // Represents image data
+
+//
+const weakMap = new WeakMap();
+const obj = {};
+weakMap.set(obj, "data"); // Stores data associated with the object
+
 // Reference (Non Primitive)
 // Array, Objects, Functions
 
