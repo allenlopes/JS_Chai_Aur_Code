@@ -165,3 +165,18 @@ fetchData()
 const add = (a) => (b) => a + b;
 const add5 = add(5);
 console.log(add5(3)); // Output: 8
+
+
+//////
+
+const add = (a, b) => a + b; // Equivalent to function add(a, b) { return a + b; }
+
+
+////
+const greet = (name) => {
+  console.log("Hello, " + name + "!");
+};
+
+
+/////
+setTimeout(() => console.log("This runs after 2 seconds"), 2000);
