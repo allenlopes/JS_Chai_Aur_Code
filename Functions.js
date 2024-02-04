@@ -180,3 +180,13 @@ const greet = (name) => {
 
 /////
 setTimeout(() => console.log("This runs after 2 seconds"), 2000);
+
+
+/////
+const person = {
+    name: "John",
+    greet: () => console.log("Hello, my name is " + this.name) // `this` refers to the person object
+};
+
+
+/////
