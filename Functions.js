@@ -214,3 +214,9 @@ console.log(numbersGenerator.next().value); // Output: 1
 console.log(numbersGenerator.next().value); // Output: 2
 
 
+//// Higher Order Functions
+const map = (fn, arr) => arr.map(fn);
+const double = x => x * 2;
+const doubledNumbers = map(double, [1, 2, 3]); // Output: [2, 4, 6]
+
+
