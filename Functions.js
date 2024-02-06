@@ -222,3 +222,17 @@ const doubledNumbers = map(double, [1, 2, 3]); // Output: [2, 4, 6]
 
 /// Callback functions
 setTimeout(() => console.log("This runs after 2 seconds"), 2000);
+
+
+//// Closures
+function createCounter() {
+    let count = 0;
+    return function() {
+        count++;
+        return count;
+    };
+}
+
+const counter = createCounter();
+console.log(counter()); // Output: 1
+console.log(counter()); // Output: 2
