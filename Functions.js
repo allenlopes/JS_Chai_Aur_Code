@@ -220,3 +220,5 @@ const double = x => x * 2;
 const doubledNumbers = map(double, [1, 2, 3]); // Output: [2, 4, 6]
 
 
+/// Callback functions
+setTimeout(() => console.log("This runs after 2 seconds"), 2000);
