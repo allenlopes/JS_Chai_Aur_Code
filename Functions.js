@@ -200,3 +200,17 @@ async function fetchData() {
         console.error(error);
     }
 }
+
+
+//// Generator Functions
+function* createNumbers() {
+    for (let i = 1; i <= 5; i++) {
+        yield i;
+    }
+}
+
+const numbersGenerator = createNumbers();
+console.log(numbersGenerator.next().value); // Output: 1
+console.log(numbersGenerator.next().value); // Output: 2
+
+
