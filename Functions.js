@@ -236,3 +236,19 @@ function createCounter() {
 const counter = createCounter();
 console.log(counter()); // Output: 1
 console.log(counter()); // Output: 2
+
+
+//// Immediately invoked functions
+(function() {
+    console.log("This runs immediately");
+})();
+
+
+//// Recursion
+function factorial(n) {
+    if (n === 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
