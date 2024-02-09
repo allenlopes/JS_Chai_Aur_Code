@@ -270,3 +270,33 @@ function countDown(number) {
 }
 
 countDown(4);
+
+
+//// 1. Simple function to calculate area of a rectangle:
+function calculateArea(width, height) {
+  return width * height;
+}
+
+const area = calculateArea(5, 10); // area will be 50
+console.log("Area of the rectangle:", area);
+
+
+//// 2. Function to check if a number is even:
+function isEven(number) {
+  return number % 2 === 0;
+}
+
+const isTwoEven = isEven(2); // isTwoEven will be true
+console.log("Is 2 even?", isTwoEven);
+
+
+//// 3. Function to loop through an array and print elements:
+function printArrayElements(arr) {
+  for (const element of arr) {
+    console.log(element);
+  }
+}
+
+const myArray = [1, "apple", true];
+printArrayElements(myArray);
+
