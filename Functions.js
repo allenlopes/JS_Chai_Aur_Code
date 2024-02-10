@@ -300,3 +300,12 @@ function printArrayElements(arr) {
 const myArray = [1, "apple", true];
 printArrayElements(myArray);
 
+
+//// Celcius to farenhite
+function convertCelsiusToFahrenheit(celsius) {
+  return (celsius * 9) / 5 + 32;
+}
+
+const fahrenheit = convertCelsiusToFahrenheit(20); // fahrenheit will be 68
+console.log("20°C in Fahrenheit:", fahrenheit);
+
