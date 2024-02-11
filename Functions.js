@@ -309,3 +309,12 @@ function convertCelsiusToFahrenheit(celsius) {
 const fahrenheit = convertCelsiusToFahrenheit(20); // fahrenheit will be 68
 console.log("20°C in Fahrenheit:", fahrenheit);
 
+
+
+//// Arrow function to greet someone:
+const greet = (name) => {
+  console.log("Hello, " + name + "!");
+};
+
+greet("John"); // Output: Hello, John!
+
