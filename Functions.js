@@ -318,3 +318,8 @@ const greet = (name) => {
 
 greet("John"); // Output: Hello, John!
 
+
+//// Callback function for setTimeout:
+setTimeout(() => {
+  console.log("This message will be printed after 3 seconds");
+}, 3000);
