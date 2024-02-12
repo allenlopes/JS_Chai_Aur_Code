@@ -323,3 +323,10 @@ greet("John"); // Output: Hello, John!
 setTimeout(() => {
   console.log("This message will be printed after 3 seconds");
 }, 3000);
+
+
+
+//// Higher order function:
+const numbers = [1, 2, 3];
+const doubledNumbers = numbers.map((x) => x * 2); // doubledNumbers will be [2, 4, 6]
+console.log("Doubled numbers:", doubledNumbers);
