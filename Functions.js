@@ -330,3 +330,12 @@ setTimeout(() => {
 const numbers = [1, 2, 3];
 const doubledNumbers = numbers.map((x) => x * 2); // doubledNumbers will be [2, 4, 6]
 console.log("Doubled numbers:", doubledNumbers);
+
+
+
+
+const sum = [1, 2, 3].reduce((accumulator, currentValue) => accumulator + currentValue, 0); // sum will be 6
+
+
+
+const names = ["Alice", "Bob", "Charlie"].sort(); // names will be ["Alice", "Bob", "Charlie"]
