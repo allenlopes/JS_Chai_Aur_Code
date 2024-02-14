@@ -339,3 +339,11 @@ const sum = [1, 2, 3].reduce((accumulator, currentValue) => accumulator + curren
 
 
 const names = ["Alice", "Bob", "Charlie"].sort(); // names will be ["Alice", "Bob", "Charlie"]
+
+
+
+const currentTime = Date.now(); // currentTime will be the current timestamp in milliseconds
+
+
+
+setTimeout(() => console.log("This message will be printed after 2 seconds"), 2000);
