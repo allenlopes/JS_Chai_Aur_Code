@@ -347,3 +347,24 @@ const currentTime = Date.now(); // currentTime will be the current timestamp in 
 
 
 setTimeout(() => console.log("This message will be printed after 2 seconds"), 2000);
+
+
+
+void passByValue(int x, int y)
+{
+    int z = x;
+    x = y;
+    y = z;
+}
+
+int main()
+{
+    int a = 5, b = 6;
+    cout<<"Before swapping: "<<endl<<"a: "<<a<<endl<<"b: "<<b<<endl;
+
+    // Call function
+    passByValue(a, b);
+
+
+    cout<<"After swapping: "<<endl<<"a: "<<a<<endl<<"b: "<<b<<endl;
+}
