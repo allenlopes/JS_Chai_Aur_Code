@@ -350,3 +350,8 @@ document.write('<br/>');
 
     var name2 = "Allen is a nerd Programmer, Allen has less knowledge but passion for learning makes him worthy";
     document.write(name2.slice(-12)); // start displaying the data from backwards position 12 and till the end..
+
+
+
+        var name = "Allen is a nerd Programmer, Allen has less knowledge but passion for learning makes him worthy";
+    document.write(name.substring(12)); // display data from position 12 and all further on..
