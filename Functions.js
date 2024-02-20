@@ -367,3 +367,12 @@ document.write('<br/>');
         var name1 = "Allen is a nerd Programmer,";
         var name2 = "Allen has less knowledge but passion for learning makes him worthy"
         document.write(name1.concat(" ", name2));
+
+
+                var name = "Allen is a nerd Programmer";
+        document.write(name[0]); // it will give the letter the 0th position
+
+        document.write('<br/>');
+
+        var name = "Allen is a nerd Programmer";
+        document.write(name[12]); // it will give the letter the 12th position
