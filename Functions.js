@@ -355,3 +355,15 @@ document.write('<br/>');
 
         var name = "Allen is a nerd Programmer, Allen has less knowledge but passion for learning makes him worthy";
     document.write(name.substring(12)); // display data from position 12 and all further on..
+
+
+       /* One way is to add + between two variables
+        var name1 = "Allen is a nerd Programmer,";
+        var name2 = "Allen has less knowledge but passion for learning makes him worthy"
+        document.write(name1+" "+name2);
+    */
+
+    // second is to add concat to join 2 variables
+        var name1 = "Allen is a nerd Programmer,";
+        var name2 = "Allen has less knowledge but passion for learning makes him worthy"
+        document.write(name1.concat(" ", name2));
