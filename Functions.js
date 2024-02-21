@@ -376,3 +376,13 @@ document.write('<br/>');
 
         var name = "Allen is a nerd Programmer";
         document.write(name[12]); // it will give the letter the 12th position
+
+
+        var name = "AlLEn lOpEs";
+        document.write("Welcome " + name.toUpperCase()); // basically the user types his/her name in wierd format, so we can just add string function of toUpperCase, which will display the user's name in proper uppercase format.
+
+        document.write("</br>");
+
+        var html = "Dear %NAME%, Here are your tickets";
+        var result = html.replace("%NAME%", "Allen"); // replace will basically replace the %NAME% inside the string to "Allen"
+        document.write(result);
