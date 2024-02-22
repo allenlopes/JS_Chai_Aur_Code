@@ -393,3 +393,12 @@ document.write('<br/>');
     var r = name.replace("Allen", "Sal"); // replace basically replaces the first occuring word in our string which we want to replace, like suppose we want to replace "Allen" with "Sal" and there are total 10 words with "Allen" so it will only replace the first word "Allen"
     document.write(r);
 
+
+    var name = "AlLEn lOpEs";
+    document.write("Welcome " + name.toUpperCase()); // basically the user types his/her name in wierd format, so we can just add string function of toUpperCase, which will display the user's name in proper uppercase format.
+
+    document.write("</br>");
+
+    var html = "Dear %NAME%, Here are your tickets";
+    var result = html.replace("%NAME%", "Allen"); // replace will basically replace the %NAME% inside the string to "Allen"
+    document.write(result);
