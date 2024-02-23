@@ -426,3 +426,8 @@ document.write('<br/>');
         var name = "Allen Lopes";
         var arr = name.split(" "); // it will first convert the string to array, so the array will get it's index positions which we can print the first name of the person with the array element's index position.
         document.write("Welcome "+arr[0]); // printing the first name using the array's index position 0.
+
+
+                var arr = ["Allen", "Sal", "Lopes", "Atomic", "Habits"];
+                var result = arr.join(" "); // basically it converts the given array into an normal string
+                document.write(result);
