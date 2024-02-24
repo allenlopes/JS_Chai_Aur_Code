@@ -443,3 +443,9 @@ document.write('<br/>');
         var arr =["Allen", "Sal"];
         arr.length = 0;
         document.write(arr.length);
+
+// Concat
+        var arr = ["Allen", "Sal"];
+        var arr1 = ["Lopes", "Dmello"];
+        var result = arr.concat(arr1); // concat will combine arr with arr1
+        document.write(result);
