@@ -449,3 +449,8 @@ document.write('<br/>');
         var arr1 = ["Lopes", "Dmello"];
         var result = arr.concat(arr1); // concat will combine arr with arr1
         document.write(result);
+
+// Pop
+        var arr = ["Allen", "Sal", "Lopes"];
+        arr.pop(); // basically it will pop out the last element in our array, in this case it is Lopes.
+        document.write(arr);
