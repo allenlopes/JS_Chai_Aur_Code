@@ -454,3 +454,8 @@ document.write('<br/>');
         var arr = ["Allen", "Sal", "Lopes"];
         arr.pop(); // basically it will pop out the last element in our array, in this case it is Lopes.
         document.write(arr);
+
+// Shift
+        var arr = ["Allen", "Sal", "Lopes"];
+        arr.shift(); // basically it will pop out the first element in our array, in this case it is Allen.
+        document.write(arr);
