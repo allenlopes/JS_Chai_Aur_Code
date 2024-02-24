@@ -431,3 +431,15 @@ document.write('<br/>');
                 var arr = ["Allen", "Sal", "Lopes", "Atomic", "Habits"];
                 var result = arr.join(" "); // basically it converts the given array into an normal string
                 document.write(result);
+
+
+    // For getting the number of arrays inside the array
+    /*
+    var arr =["Allen", "Sal"];
+    document.write(arr.length);
+    */
+
+    // For making the array blank with the help of length function
+        var arr =["Allen", "Sal"];
+        arr.length = 0;
+        document.write(arr.length);
