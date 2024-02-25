@@ -464,3 +464,8 @@ document.write('<br/>');
         var arr = ["Allen", "Sal"];
         arr.push("Lopes"); // basically it will push the entered element(value) inside our array at the last, in this case it will add "Lopes".
         document.write(arr);
+
+// Unshift
+        var arr = ["Allen", "Sal"];
+        arr.unshift("Lopes"); // basically it will push the entered element(value) inside our array at the first, in this case it will add "Lopes".
+        document.write(arr);
