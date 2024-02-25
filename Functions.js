@@ -459,3 +459,8 @@ document.write('<br/>');
         var arr = ["Allen", "Sal", "Lopes"];
         arr.shift(); // basically it will pop out the first element in our array, in this case it is Allen.
         document.write(arr);
+
+// Push
+        var arr = ["Allen", "Sal"];
+        arr.push("Lopes"); // basically it will push the entered element(value) inside our array at the last, in this case it will add "Lopes".
+        document.write(arr);
