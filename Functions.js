@@ -469,3 +469,15 @@ document.write('<br/>');
         var arr = ["Allen", "Sal"];
         arr.unshift("Lopes"); // basically it will push the entered element(value) inside our array at the first, in this case it will add "Lopes".
         document.write(arr);
+
+// Splice
+    //
+        var arr =["Allen", "Sal", "Lopes"];
+        arr.splice(1, 1); // basically (1, 1) means, it will remove the element(value) at index position 1 till element(value) at index position 1.
+        document.write(arr);
+
+document.write('<br/>');
+    //
+        var arr =["Allen", "Sal", "Lopes", "Atomic", "Habits"];
+        arr.splice(2, 4); // basically (2, 3) means, it will remove the element(value) at index position 2 till element(value) at index position 3.
+        document.write(arr);
