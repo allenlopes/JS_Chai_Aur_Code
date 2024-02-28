@@ -481,3 +481,13 @@ document.write('<br/>');
         var arr =["Allen", "Sal", "Lopes", "Atomic", "Habits"];
         arr.splice(2, 4); // basically (2, 3) means, it will remove the element(value) at index position 2 till element(value) at index position 3.
         document.write(arr);
+
+// IndexOf
+        var arr = ["Allen", "Sal", "Lopes", "Atomic", "Habits"];
+        document.write(arr.indexOf("Atomic")); // it will display the index position of the element
+
+        document.write("<br/>");
+
+        // if we want to remove index position of an value which is not present in our array then it will give -1
+        var arr = ["Allen", "Sal", "Lopes", "Atomic", "Habits"];
+        document.write(arr.indexOf("Epic"));
