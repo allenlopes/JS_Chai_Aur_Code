@@ -491,3 +491,13 @@ document.write('<br/>');
         // if we want to remove index position of an value which is not present in our array then it will give -1
         var arr = ["Allen", "Sal", "Lopes", "Atomic", "Habits"];
         document.write(arr.indexOf("Epic"));
+
+// Array is Array
+        var arr = ["Allen", "Sal", "Lopes", "Atomic", "Habits"];
+        document.write(Array.isArray(arr)); // it will display true if it's array else it will display false if it's not an array
+
+        document.write("<br/>");
+
+        // let's see an ex. of not an array
+        var arr1 = "qwerty";
+        document.write(Array.isArray(arr1));
