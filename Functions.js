@@ -501,3 +501,23 @@ document.write('<br/>');
         // let's see an ex. of not an array
         var arr1 = "qwerty";
         document.write(Array.isArray(arr1));
+
+// Global Local Variable
+    var x = 30 // Global variable which can be accessed anywhere inside our whole code including inside function
+    function test(){
+        document.write(x);
+    }
+    test();
+
+
+document.write('<br/>')
+document.write('<br/>')
+
+
+    var x1 = 10 // Global variable which can be accessed anywhere inside our whole code including inside function
+    function test1(){
+        var x1 = 20 // Local variable which can be access only inside the function, i.e here in this case inside function test() only
+        document.write(x1);
+    }
+    test1();
+    document.write(x1); // It will display output of global variable x1 = 10.
