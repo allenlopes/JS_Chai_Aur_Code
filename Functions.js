@@ -521,3 +521,11 @@ document.write('<br/>')
     }
     test1();
     document.write(x1); // It will display output of global variable x1 = 10.
+
+// Anonymous Functions
+// Anonymous function
+(function () {
+  let x = 10;
+  let y = 20;
+  document.write(x + y);
+}) (); // () this indicated function is called.
