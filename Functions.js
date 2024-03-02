@@ -514,7 +514,7 @@ document.write('<br/>')
 document.write('<br/>')
 
 
-    var x1 = 10 // Global variable which can be accessed anywhere inside our whole code including inside function
+    var x1 = 10 // Global variable which can be accessed anywhere inside our whole co3de including inside function
     function test1(){
         var x1 = 20 // Local variable which can be access only inside the function, i.e here in this case inside function test() only
         document.write(x1);
@@ -529,3 +529,11 @@ document.write('<br/>')
   let y = 20;
   document.write(x + y);
 }) (); // () this indicated function is called.
+
+
+// Anonymous Functions
+        var x = function (){
+            document.write("Hello");
+        }
+        // document.write(x) -> we can't call the var x like this because it will directly print the whole function rather than printing just the value inside the function.
+        x(); // Printing the anonymous function by calling the variable name.
