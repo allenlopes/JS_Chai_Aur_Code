@@ -9,3 +9,11 @@
         document.write("Welcome "+result);
     }
 
+
+// Confirm Popup
+    var result = confirm("Are you sure?");
+    if (result == true) {
+      document.write("Allen");
+    } else {
+      document.write("Okayy");
+    }
