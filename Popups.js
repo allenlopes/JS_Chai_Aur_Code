@@ -17,3 +17,7 @@
     } else {
       document.write("Okayy");
     }
+
+
+// Alert
+    alert("Allennn");
