@@ -27,3 +27,15 @@
 <p id="demo"></p>;
 document.getElementById("demo").innerHTML =
   "cookiesEnabled is " + navigator.cookieEnabled;
+
+
+// History
+    // History Forward
+function goForward() {
+  window.history.forward();
+}
+
+    // History Back
+function goBack() {
+  window.history.back();
+}
