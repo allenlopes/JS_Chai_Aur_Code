@@ -21,3 +21,11 @@
 
 // Alert
     alert("Allennn");
+
+
+// Array pop
+    var arr = ["Allen", "Sall"];
+    for (var i = 0; i < 2; i++) {
+      document.write(arr[i]);
+      document.write(" ");
+    }
