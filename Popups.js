@@ -23,9 +23,7 @@
     alert("Allennn");
 
 
-// Array pop
-    var arr = ["Allen", "Sall"];
-    for (var i = 0; i < 2; i++) {
-      document.write(arr[i]);
-      document.write(" ");
-    }
+// Navigator
+<p id="demo"></p>;
+document.getElementById("demo").innerHTML =
+  "cookiesEnabled is " + navigator.cookieEnabled;
