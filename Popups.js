@@ -29,6 +29,11 @@ document.getElementById("demo").innerHTML =
   "cookiesEnabled is " + navigator.cookieEnabled;
 
 
+// Line Break
+alert("Hello\nHow are you?");
+
+
+
 // History
     // History Forward
 function goForward() {
