@@ -53,3 +53,8 @@ function myFunction() {
   alert('Hello');
 }
 </script>
+
+// Stop
+<button onclick="myVar = setTimeout(myFunction, 3000)">Try it</button>
+
+<button onclick="clearTimeout(myVar)">Stop it</button>
