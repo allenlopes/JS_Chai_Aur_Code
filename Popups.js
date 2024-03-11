@@ -58,3 +58,7 @@ function myFunction() {
 <button onclick="myVar = setTimeout(myFunction, 3000)">Try it</button>
 
 <button onclick="clearTimeout(myVar)">Stop it</button>
+
+// Screen
+document.getElementById("demo").innerHTML =
+"Screen Width: " + screen.width;
