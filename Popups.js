@@ -62,3 +62,10 @@ function myFunction() {
 // Screen
 document.getElementById("demo").innerHTML =
 "Screen Width: " + screen.width;
+
+// Window
+<p id="demo"></p>
+
+document.getElementById("demo").innerHTML =
+"Browser inner window width: " + window.innerWidth + "px<br>" +
+"Browser inner window height: " + window.innerHeight + "px";
