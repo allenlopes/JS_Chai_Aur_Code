@@ -69,3 +69,44 @@ document.getElementById("demo").innerHTML =
 document.getElementById("demo").innerHTML =
 "Browser inner window width: " + window.innerWidth + "px<br>" +
 "Browser inner window height: " + window.innerHeight + "px";
+
+// DOM MANIPULATION
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Popup Example</title>
+<style>
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        z-index: 1000;
+    }
+</style>
+<script>
+function openPopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block';
+}
+
+function closePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+}
+</script>
+</head>
+<body>
+<button onclick="openPopup()">Open Popup</button>
+<div id="popup" class="popup">
+    <button onclick="closePopup()">Close</button>
+    <p>This is a popup!</p>
+</div>
+</body>
+</html>
