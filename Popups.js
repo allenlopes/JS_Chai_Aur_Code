@@ -70,6 +70,9 @@ document.getElementById("demo").innerHTML =
 "Browser inner window width: " + window.innerWidth + "px<br>" +
 "Browser inner window height: " + window.innerHeight + "px";
 
+function openPopup() {
+    window.open('popup.html', 'Popup', 'width=400,height=300');
+
 // DOM MANIPULATION
 <!DOCTYPE html>
 <html lang="en">
