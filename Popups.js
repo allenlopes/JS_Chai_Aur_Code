@@ -113,3 +113,10 @@ function closePopup() {
 </div>
 </body>
 </html>
+
+
+
+// Screen
+
+document.getElementById("demo").innerHTML =
+"Screen Color Depth: " + screen.colorDepth;
