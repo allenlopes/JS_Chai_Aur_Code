@@ -120,3 +120,12 @@ function closePopup() {
 
 document.getElementById("demo").innerHTML =
 "Screen Color Depth: " + screen.colorDepth;
+
+
+// Confirm
+var result = confirm("Are you sure you want to continue?");
+if (result) {
+  // User clicked OK
+} else {
+  // User clicked Cancel
+}
