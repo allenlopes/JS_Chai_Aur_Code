@@ -9,6 +9,14 @@
         document.write("Welcome "+result);
     }
 
+//
+var name = prompt("Please enter your name:", "");
+if (name != null) {
+  // User entered a name
+} else {
+  // User clicked Cancel
+}
+
 
 // Confirm Popup
     var result = confirm("Are you sure?");
