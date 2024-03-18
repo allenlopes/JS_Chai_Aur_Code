@@ -1,3 +1,24 @@
+// Main Popup ->
+const openButton = document.getElementById('open-popup');
+const popup = document.getElementById('popup');
+const closeButton = document.getElementById('close-popup');
+
+// Open popup function (toggles visibility class)
+const openPopup = () => {
+  popup.classList.toggle('visible');
+}
+
+// Close popup function (toggles visibility class)
+const closePopup = () => {
+  popup.classList.toggle('visible');
+}
+
+// Add click event listeners
+openButton.addEventListener('click', openPopup);
+closeButton.addEventListener('click', closePopup);
+
+
+
 // Prompt popups
     var result = prompt("Please enter your name");
     if(result == "" || result == null)
